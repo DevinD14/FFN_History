@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook `FFN_History_Analysis.ipynb` that co
 ## Contents
 - **Import and Clean Data**: Initial data import and cleaning to prepare datasets for analysis. This step ensures data quality and reliability for subsequent computations.
 - **Compute Total Number of Participants in Each Contest**: Calculation of unique participant counts for each league.
-- **Compute Adjusted Percentile Rank**: Introduction of a formula to calculate adjusted percentile ranks, standardizing participant performance across different contest sizes.
+- **Compute Adjusted Percentile**: Introduction of a formula to calculate adjusted percentiles, standardizing participant performance across different contest sizes.
 - **Data Filtering Options**: Detailed options for filtering the dataset based on various criteria such as time periods, participant demographics, and contest types. This flexibility allows for tailored analyses to uncover specific insights.
 - **Summary Statistics**: Provision of summary statistics that offer a snapshot of each player's performance based on the various metrics utilized throughout this analysis.
 - **League Performance Index (LPI)**: LPI quantifies a player's Bayesian average adjusted percentile finish. Each player's adjusted percentile finish across all of their league ranking results is computed to account for the variation in the total number of players in a given league. Based on a player's total adjusted percentile finish, the Bayesian average is then calculated to account for the variation in the total number of leagues a given player has participated in.
