@@ -25,6 +25,11 @@ This normalization ensures that performances are comparable across contests with
 ## Bayesian Average and Normalization
 The Bayesian Average is utilized to compute new performance metrics, offering a more nuanced view of participant success that accounts for both the number and quality of performances. This method reduces the impact of outliers, providing a more accurate representation of participant capabilities. Metrics are normalized on a scale where 100 signifies average performance, allowing for intuitive comparison across player performance.
 
+## League Performance Index Plus (LPI+) Visualization
+This bar chart illustrates the comparison of players' performance against the average, marked by a red dashed line at LPI+ 100, visually representing each player's performance deviation above or below the average within the FFN universe. This plots details the most updated results and provides an overall standings across the FFN universe.
+
+![FFN_universe_lpi_plus_plot](https://github.com/DevinD14/FFN_History/assets/66424619/e743b6d1-2d3b-4a5d-9a57-21faac87bad7)
+
 ## Requirements
 - Python 3.x
 - Jupyter Notebook or JupyterLab
