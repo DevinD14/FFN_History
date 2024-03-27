@@ -13,8 +13,8 @@ This repository contains a Jupyter notebook `FFN_History_Analysis.ipynb` that co
 - **League Performance Index Plus (LPI+)**: LPI+ takes a player's League Performance Index (LPI) and normalizes the number across the entire FFN universe. It then adjusts so a score of 100 is league average, and 150 is 50 percent better than the league average.
 - **Data Visualization of League Performance Index Plus (LPI+)**: This bar chart illustrates the comparison of players' performance against the average, marked by a red dashed line at LPI+ 100, visually representing each player's performance deviation above or below the average within the FFN universe.
 
-## Adjusted Percentile Rank Formula
-The Adjusted Percentile Rank is calculated using the formula:
+## Adjusted Percentile Formula
+The Adjusted Percentile is calculated using the formula:
 $$\text{Adjusted Percentile} = \left( \frac{n - \text{rank}}{n - 1} \right) \cdot \ln(1 + n)$$
 where:
 
